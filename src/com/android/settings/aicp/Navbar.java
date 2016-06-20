@@ -44,7 +44,6 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 import android.preference.PreferenceCategory;
 import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.SlimSeekBarPreference;
 import android.preference.SwitchPreference;
 
 import com.android.internal.utils.du.ActionConstants;
