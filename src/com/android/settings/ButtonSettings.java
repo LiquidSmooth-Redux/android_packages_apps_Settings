@@ -377,8 +377,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             //    mNavigationPreferencesCat.removePreference(mNavigationBarLeftPref);
             //}
 
-            if (!hasNavBar && (needsNavigationBar ||
-                    !hardware.isSupported(CMHardwareManager.FEATURE_KEY_DISABLE))) {
+            if (!hasNavBar ) {
                     // Hide navigation bar category
                     prefScreen.removePreference(mNavigationPreferencesCat);
             }
